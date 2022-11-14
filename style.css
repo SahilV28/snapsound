@@ -1,0 +1,282 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   background-color: #F6F6EE;
+}
+
+#main{
+    width: 100%;
+    background-color:#F6F6EE;
+}
+
+#main #nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 70px;
+    font-family: gilroy;
+}
+
+#main #nav p{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#rlink{
+    display: flex;
+    gap: 30px;
+}
+
+#rlink a{
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#rlink a:hover{
+    color: rgb(202, 178, 178);
+    border-bottom: 1px solid rgb(208, 185, 185);
+}
+
+#test{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#test h1{
+     font-size: 60px;
+     text-align: center;
+     font-family: PlayFair Display;
+}
+
+#test p{
+    font-size: 15px;
+    margin: 10px;
+    color: #333;
+}
+
+#test button{
+     width: 120px;
+     margin-top: 30px;
+     background-color: black;
+     color: #D2E0E0;
+     padding: 10px 20px;
+     border-radius: 100px;
+}
+
+#test button:hover{
+    cursor: pointer;
+    background-color:#F6F6EE;
+    color: black;
+}
+
+#photua{
+ width: 100%;
+ margin-top: 70px;
+}
+
+#photua img{
+    width: 100%;
+}
+
+#photo{
+    position: relative;
+    width: 50%;
+    left: 0%;
+    height: 100vh;
+    margin-top: 40px;
+}
+
+#photo #bg{
+    width: 105%;
+    position: absolute;
+    top: -10%;
+}
+
+#photo #bg img{
+    width: 100%;
+}
+
+
+#photo #mid{
+     width: 80%;
+     height: 80%;
+     position: absolute;
+     top: 20%;
+}
+
+
+#photo #mid img{
+    width: 130%;
+}
+
+#photo #upper{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    top: 80%;  
+    transform: rotate(4deg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#photo #upper img{
+    width: 100%;
+}
+
+#photo #para{
+    width: 60%;
+    height: 90%;
+    position: absolute;
+    top: 30%;
+    left:115%;
+}
+
+#photo #para h3{
+    font-size: 45px;
+    line-height: 40px;
+}
+
+#photo #para p{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#photo #para button{
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #000000;
+    color: #F6F6EE;
+    border-radius: 20px;
+}
+#photo #para button:hover{
+    background-color: #F6F6EE;
+    color: #000000;
+    font-weight: 500;
+}
+
+#crow{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 360px;
+}
+
+#crow img{
+    width: 70%;
+}
+
+#side{
+  width: 15%;
+  height: 40%;
+  position: absolute;
+  right: 0%;
+  top: 40%;
+}
+
+#side img{
+    position: absolute;
+    left: 30%;
+}
+
+#bord{
+    margin-top: 0px;
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    left: 10%;
+}
+
+#bord img{
+    width: 100%;
+}
+
+#main #last{
+    width: 80%;
+    /* height: 220px; */
+    background-color: #F6F6EE;
+    margin-top: 180px;
+    position: absolute;
+    left: 10%;
+    display: flex;
+    gap: 60px;
+    padding-bottom: 5%;
+}
+
+#last #l{
+    width: 35%;
+    display: flex;
+    padding: 30px;
+    font-size: 13px;
+}
+
+#last #l p{
+    width: 100%;
+}
+
+#last #l p span{
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: gilroy;
+}
+
+#last #m{
+    width: 32.5%;
+    height: 100%;
+    text-align: center;
+}
+
+#last #m h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2b2a2a;
+    font-size: 14px;
+}
+
+#last #m a{
+  text-decoration: none;
+  line-height: 2;
+  color: #303028;
+  font-size: 13px;
+}
+
+#last #m a:hover{
+    border-bottom: 1px solid #333;
+}
+
+#last #r{
+    width: 32.5%;
+    height: 100%;
+}
+
+#last #r h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: #2b2a2a;
+    font-size: 14px;
+}
+
+#last #r a{
+    color: #2b2a2a;
+    font-size: 13px;
+    margin-left: 30px;
+
+}
+
+#last #r p{
+    line-height: 2;
+    color: #2b2a2a;
+    margin-left: 30px;
+
+}
